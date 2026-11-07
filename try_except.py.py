@@ -1,0 +1,10 @@
+#异常数据处理.py
+try:
+    num=eval(input("请输入整数："))
+    print(pow(num,2))
+except:
+    print("输入格式错误")
+else:
+    print("输入格式正确")
+finally:
+    print("执行结束")
